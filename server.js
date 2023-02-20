@@ -26,7 +26,7 @@ app.use(
 app.use(morgan("dev"));
 
 //Database Connection
-connectDB("mongodb://localhost:27017/hackathonDB");
+connectDB("mongodb+srv://hammad:hammad123@cluster0.uhwo4m3.mongodb.net/test");
 
 // Routes
 app.use(`${BASE_URL}`, AuthRouter);
